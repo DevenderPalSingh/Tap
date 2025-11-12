@@ -40,4 +40,92 @@ nav a:hover {
     center/cover no-repeat;
   height: 80vh;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 0 20px;
 }
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+
+button {
+  background: white;
+  color: #0d6efd;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #e5e7eb;
+}
+
+.features {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+}
+.feature h2 {
+  margin-bottom: 30px;
+  color: #0d6efd;
+}
+
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.feature {
+  background: #f0f8ff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.feature:hover {
+  transform: scale(0.5);
+}
+
+.feature img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.cta {
+  background: #0d6efd;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cta h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+footer {
+  clear: both;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  background: #111;
+  color: white;
+  font-size: 0.9rem;
+}
+/*Comment Test Is Done Over Here....................................................
